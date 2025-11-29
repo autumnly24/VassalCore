@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "io.github.kawaiicakes.potionnuke.mixin",
+  "refmap": "mixins.potionnuke.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "mixinextras": {"minVersion": "0.5.0-rc.2"}
+}

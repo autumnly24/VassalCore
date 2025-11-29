@@ -1,0 +1,25 @@
+modLoader = "javafml"
+issueTrackerURL = "https://github.com/kawaiicakes/PotionNuke/issues"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+modId = "potionnuke"
+version = "${mod_version}"
+displayName = "Potion Nuke"
+authors = "${mod_authors}"
+description = "${mod_description}"
+
+[[dependencies.potionnuke]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.potionnuke]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
