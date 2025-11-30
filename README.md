@@ -1,4 +1,5 @@
-For Vassal S2.
+Core mod for season 2 of the modpack Vassal.
 
-This should be completely finished now. I don't think I'm even gonna bother publishing this, but to future me, make sure to change
-all this stuff up if I change my mind lmao
+# Changelog
+- Repurposed from Potion Nuke to Vassal Core
+- Stop Straw Golem creation from Hay Bales and Pumpkins

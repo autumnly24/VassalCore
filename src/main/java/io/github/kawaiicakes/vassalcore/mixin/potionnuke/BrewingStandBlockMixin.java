@@ -1,4 +1,4 @@
-package io.github.kawaiicakes.potionnuke.mixin;
+package io.github.kawaiicakes.vassalcore.mixin.potionnuke;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;

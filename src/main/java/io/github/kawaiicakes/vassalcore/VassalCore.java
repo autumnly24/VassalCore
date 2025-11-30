@@ -1,18 +1,18 @@
-package io.github.kawaiicakes.potionnuke;
+package io.github.kawaiicakes.vassalcore;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-@Mod(PotionNuke.MOD_ID)
-public final class PotionNuke {
-    public static final String MOD_ID = "potionnuke";
+@Mod(VassalCore.MOD_ID)
+public final class VassalCore {
+    public static final String MOD_ID = "vassalcore";
 
-    public PotionNuke() {
+    public VassalCore() {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    public PotionNuke(FMLJavaModLoadingContext context) {
+    public VassalCore(FMLJavaModLoadingContext context) {
         MinecraftForge.EVENT_BUS.register(this);
     }
 }
