@@ -6,6 +6,7 @@
   "mixins": [
     "potionnuke.BrewingStandBlockMixin",
     "quiver.QuiverItemMixin",
+    "shearing.SheepMixin",
     "strawgolem.CarvedPumpkinBlockMixin"
   ],
   "client": [
