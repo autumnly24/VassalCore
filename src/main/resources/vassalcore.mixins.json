@@ -5,7 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "potionnuke.BrewingStandBlockMixin",
-    "quiver.ModTagsMixin",
+    "quiver.QuiverItemMixin",
     "strawgolem.CarvedPumpkinBlockMixin"
   ],
   "client": [
@@ -13,5 +13,7 @@
   "injectors": {
     "defaultRequire": 1
   },
-  "minVersion": "0.8"
+  "minVersion": "0.8",
+  "mixinextras": {
+    "minVersion": "0.5.0-rc.2"}
 }

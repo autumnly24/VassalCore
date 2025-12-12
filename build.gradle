@@ -47,7 +47,11 @@ repositories {
 
 dependencies {
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:${mixin_extras_version}"))
+    // need this vers specifically
+    implementation(jarJar("io.github.llamalad7:mixinextras-forge:${mixin_extras_version}"))
     modCompileOnly("curse.maven:supplementaries-412082:7113231")
+    modCompileOnly("curse.maven:spartan-weaponry-278141:6842571")
     // modCompileOnly("curse.maven:corpse-316582:7018272") on standby
 }
 
