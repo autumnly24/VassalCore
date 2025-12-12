@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "potionnuke.BrewingStandBlockMixin",
+    "quiver.ModTagsMixin",
     "strawgolem.CarvedPumpkinBlockMixin"
   ],
   "client": [

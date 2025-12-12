@@ -40,10 +40,15 @@ legacyForge {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 dependencies {
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    modCompileOnly("curse.maven:supplementaries-412082:7113231")
+    // modCompileOnly("curse.maven:corpse-316582:7018272") on standby
 }
 
 mixin {
