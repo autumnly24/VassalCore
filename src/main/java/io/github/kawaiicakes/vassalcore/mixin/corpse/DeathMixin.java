@@ -9,7 +9,7 @@ import nuparu.tinyinv.world.item.FakeItem;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 
-@Mixin(Death.class)
+@Mixin(value = Death.class, remap = false)
 public abstract class DeathMixin {
     @WrapOperation(
             method = "fromPlayer",
