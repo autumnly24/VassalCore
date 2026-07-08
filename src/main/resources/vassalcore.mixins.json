@@ -4,11 +4,7 @@
   "refmap": "mixins.vassalcore.refmap.json",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "corpse.DeathMixin",
-    "potionnuke.BrewingStandBlockMixin",
-    "quiver.QuiverItemMixin",
-    "shearing.SheepMixin",
-    "strawgolem.CarvedPumpkinBlockMixin"
+    "shearing.SheepMixin"
   ],
   "client": [
   ],
